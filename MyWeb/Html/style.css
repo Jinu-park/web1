@@ -1,0 +1,30 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 28, 80);
+  box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(240, 85, 35);
+}
+
+.active {
+    background-color: rgb(240, 85, 35);
+}
+    
